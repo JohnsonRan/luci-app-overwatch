@@ -1,0 +1,201 @@
+/* Theme-neutral: only rgba grays + the two chart accent colors, so both
+ * light and dark LuCI themes (bootstrap, argon, material) render sanely. */
+
+.ow-speed {
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+.ow-chart-wrap {
+	position: relative;
+	height: 260px;
+	margin-bottom: 12px;
+}
+
+.ow-chart-empty {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-style: italic;
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+.ow-sparkline {
+	width: 80px;
+	height: 24px;
+	vertical-align: middle;
+}
+
+.ow-table td, .ow-table th {
+	vertical-align: middle;
+}
+
+/* Down / Up / Total Down / Total Up columns: right-aligned numbers */
+.ow-table .td:nth-child(n+3):nth-child(-n+6),
+.ow-table .th:nth-child(n+3):nth-child(-n+6) {
+	text-align: right;
+}
+
+/* --- stat cards ------------------------------------------------------- */
+
+.ow-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-bottom: 14px;
+}
+
+.ow-card {
+	flex: 1 1 150px;
+	min-width: 150px;
+	padding: 10px 14px;
+	border: 1px solid rgba(128,128,128,0.25);
+	border-radius: 6px;
+}
+
+.ow-card-label {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	opacity: 0.65;
+	white-space: nowrap;
+}
+
+.ow-card-value {
+	font-size: 20px;
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+	margin-top: 2px;
+}
+
+.ow-down { color: #3b82f6; }
+.ow-up { color: #ef4444; }
+
+/* --- toolbar (history) ------------------------------------------------ */
+
+.ow-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+	margin: 0 0 12px;
+}
+
+.ow-toolbar-spacer {
+	flex: 1;
+}
+
+.ow-seg {
+	display: inline-flex;
+	border: 1px solid rgba(128,128,128,0.35);
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.ow-seg-btn {
+	border: 0;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	padding: 5px 14px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.ow-seg-btn + .ow-seg-btn {
+	border-left: 1px solid rgba(128,128,128,0.35);
+}
+
+.ow-seg-btn:hover {
+	background: rgba(128,128,128,0.12);
+}
+
+.ow-seg-btn.active {
+	background: #3b82f6;
+	color: #fff;
+}
+
+/* --- history stats strip ---------------------------------------------- */
+
+.ow-stats {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 24px;
+	margin-bottom: 14px;
+}
+
+.ow-stat {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 6px;
+}
+
+.ow-stat-label {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	opacity: 0.65;
+	white-space: nowrap;
+}
+
+.ow-stat-value {
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+/* --- summary table ----------------------------------------------------- */
+
+.ow-num {
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+.ow-dim {
+	font-size: 11px;
+	opacity: 0.6;
+	font-variant-numeric: tabular-nums;
+}
+
+.ow-share-th {
+	min-width: 110px;
+}
+
+.ow-bar-cell {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.ow-bar {
+	flex: 1 1 60px;
+	max-width: 160px;
+	height: 8px;
+	border-radius: 4px;
+	background: rgba(128,128,128,0.18);
+	overflow: hidden;
+}
+
+.ow-bar-fill {
+	height: 100%;
+	border-radius: 4px;
+	background: #3b82f6;
+}
+
+.ow-bar-pct {
+	font-size: 11px;
+	opacity: 0.75;
+	font-variant-numeric: tabular-nums;
+	min-width: 3ch;
+	text-align: right;
+}
+
+@media (max-width: 480px) {
+	.ow-chart-wrap { height: 200px; }
+	.ow-card-value { font-size: 17px; }
+}

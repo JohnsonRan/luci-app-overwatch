@@ -1,0 +1,210 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:73
+msgid "#"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:91
+msgid "30 Days"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:90
+msgid "7 Days"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:203
+msgid "Active Clients"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:92
+msgid "All"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:108
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:264
+msgid "All clients"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:180
+msgid "Avg Down"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:182
+msgid "Avg Up"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:233
+msgid "Client"
+msgstr ""
+
+#: files/usr/share/luci/menu.d/luci-app-overwatch.json:33
+msgid "DNS Queries"
+msgstr ""
+
+#: files/usr/share/luci/menu.d/luci-app-overwatch.json:15
+msgid "Dashboard"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:252
+msgid "Day"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:74
+msgid "Domain"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:220
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:234
+msgid "Down"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:51
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:195
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:79
+msgid "Download"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:80
+msgid "Failed to fetch DNS stats: %s"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:151
+msgid "Failed to fetch client list: %s"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:146
+msgid "Failed to fetch history: %s"
+msgstr ""
+
+#: files/usr/share/luci/menu.d/luci-app-overwatch.json:24
+msgid "History"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:218
+msgid "Host"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:219
+msgid "IP"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:254
+msgid "Month"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:137
+msgid ""
+"No DNS query data yet. Enable \"dns_stats_enabled\" in the Overwatch config "
+"to start collecting (opt-in)."
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:179
+msgid "No clients seen yet."
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:306
+msgid "No data for this period"
+msgstr ""
+
+#: files/usr/share/luci/menu.d/luci-app-overwatch.json:3
+msgid "Overwatch"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:123
+msgid "Overwatch — DNS Queries"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:191
+msgid "Overwatch — Dashboard"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:286
+msgid "Overwatch — History"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:179
+msgid "Peak Down"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:181
+msgid "Peak Up"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:75
+msgid "Queries"
+msgstr ""
+
+#: files/usr/share/rpcd/acl.d/luci-app-overwatch.json:3
+msgid "Read overwatch traffic data"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:251
+msgid "Realtime"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:133
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:301
+msgid "Refresh"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:296
+msgid "Reset Zoom"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:76
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:236
+msgid "Share"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:224
+msgid "TCP / UDP"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dns.js:89
+msgid "Today"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:230
+msgid "Top Clients"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:222
+msgid "Total Down"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:227
+msgid "Total Download"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:207
+msgid "Total Traffic"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:223
+msgid "Total Up"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:228
+msgid "Total Upload"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:225
+msgid "Trend"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:221
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:235
+msgid "Up"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:52
+#: files/htdocs/luci-static/resources/view/overwatch/dashboard.js:199
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:80
+msgid "Upload"
+msgstr ""
+
+#: files/htdocs/luci-static/resources/view/overwatch/history.js:253
+msgid "Week"
+msgstr ""
+

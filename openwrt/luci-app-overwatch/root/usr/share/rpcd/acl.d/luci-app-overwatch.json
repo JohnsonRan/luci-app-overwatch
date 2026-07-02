@@ -1,0 +1,10 @@
+{
+  "luci-app-overwatch-read": {
+    "description": "Read overwatch traffic data",
+    "read": {
+      "ubus": {
+        "overwatch": ["clients", "history", "summary", "status", "dns_top"]
+      }
+    }
+  }
+}

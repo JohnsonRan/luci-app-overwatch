@@ -1,0 +1,19 @@
+#!/bin/sh
+# rpcd plugin: forwards ubus calls on object `overwatch` to overwatchd's socket.
+SOCK="/var/run/overwatch.sock"
+
+forward() { # $1=method ; reads JSON params on stdin
+    params="$(cat)"
+    [ -n "$params" ] || params='{}'
+    printf '{"method":"%s","params":%s}\n' "$1" "$params" | socat - "UNIX-CONNECT:$SOCK" 2>/dev/null
+}
+
+case "$1" in
+    list)
+        echo '{ "clients": {}, "history": {"client":"","tier":"","from":0,"to":0}, "summary": {"top_n":0}, "status": {}, "dns_top": {"client":"","from":0,"to":0,"limit":0} }'
+        ;;
+    call)
+        method="$2"
+        forward "$method"
+        ;;
+esac

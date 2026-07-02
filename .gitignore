@@ -1,0 +1,9 @@
+# Rust build output
+/target
+overwatch-ebpf/target
+
+# SDD controller scratch (briefs, reports, review packages, progress ledger)
+/.superpowers
+
+# Local git worktrees for isolated feature work
+/.worktrees
